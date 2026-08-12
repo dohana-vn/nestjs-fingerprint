@@ -22,6 +22,7 @@
     "!src/utils/merge.ts"
   ],
   "moduleNameMapper": {
-    "fastify/lib/Reply": "fastify/lib/reply"
+    "fastify/lib/Reply": "fastify/lib/reply",
+    "^nestjs-fingerprint$": "<rootDir>/src/index.ts"
   }
 }
